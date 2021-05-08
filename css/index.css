@@ -1,0 +1,222 @@
+.hero {
+     padding: 150px 0px;
+     background: linear-gradient(rgba(8, 5, 56, 0.7), rgba(8, 5, 56, 0.7)), url('../images/site-hero-bg-scoot.png');
+     background-repeat: no-repeat;
+     background-position: center center, calc(50% + 300px) 85%;
+     margin-bottom: 160px;
+}
+
+.hero__container {
+     position: relative;
+}
+
+.hero__title {
+     padding: 0;
+     margin: 0;
+     font-family: 'Space Mono';
+     font-size: 56px;
+     font-weight: 700;
+     letter-spacing: -2.5px;
+     width: 500px;
+     line-height: 56px;
+     margin-bottom: 40px;
+}
+
+.hero__title::after {
+     content: '';
+     width: 234px;
+     height: 63px;
+     display: inline-block;
+     background-image: url('../images/site-hero-bg-circles.svg');
+     background-position: center;
+     background-repeat: no-repeat;
+     position: absolute;
+     right: -10%;
+     top: 65%;
+}
+
+.hero__text {
+     width: 403px;
+     font-family: "Lexend Deca", "Arial", sans-serif;
+     font-size: 15px;
+     font-weight: 400;
+     line-height: 25px;
+     margin-bottom: 40px;
+     margin-left: 95px;
+}
+
+.hero-btn {
+     margin-left: 95px;
+}
+
+.hero__text::before {
+     content: '';
+     width: 203px;
+     height: 10px;
+     display: inline-block;
+     background-image: url('../images/site-hero-horizontal-line.svg');
+     background-size: contain;
+     position: absolute;
+     left: -10%;
+     top: 55%;
+}
+
+.hero__text::after {
+     content: '';
+     width: 447px;
+     height: 138px;
+     display: inline-block;
+     background-image: url('../images/yellow-arrow-to-right.svg');
+     background-position: center;
+     background-repeat: no-repeat;
+     position: absolute;
+     top: 48%;
+     right: 15%;
+     background-size: contain;
+}
+
+/* SERVICES STYLES */
+
+.services {
+     color: #495567;
+     margin-bottom: 200px;
+}
+
+.services__list {
+     display: flex;
+     align-items: center;
+     justify-content: flex-start;
+     position: relative;
+     flex-wrap: nowrap;
+}
+
+.services__list::before {
+     content: '';
+     display: block;
+     width: 974px;
+     height: 20px;
+     background-image: url('../images/linebg.png');
+     position: absolute;
+     top: 15%;
+     left: -15%;
+     z-index: -1;
+}
+
+.services__item {
+     width: 350px;
+}
+
+.services__item:not(:last-child) {
+     margin-right: 30px;
+}
+
+.services__item::before {
+     content: '';
+     display: block;
+     width: 96px;
+     height: 96px;
+     background-image: url('../images/phone.svg');
+     margin-bottom: 40px;
+}
+
+.services__item-biker::before {
+     background-image: url('../images/bike.svg');
+}
+
+.services__item-fast-biker::before {
+     background-image: url('../images/fastbiker.svg');
+}
+
+.services__item-title {
+     font-family: 'Space Mono';
+     font-size: 24px;
+     font-weight: 700;
+     line-height: 28px;
+     letter-spacing: -1.0714285373687744px;
+     margin-bottom: 27px;
+}
+
+.service__item-text {
+     font-size: 15px;
+     line-height: 25px;
+     color: #939CAA;
+}
+
+/* USING STYLES */
+
+.using {
+     color: #495567;
+}
+
+.fluid-card {
+     margin-bottom: 250px;
+     display: flex;
+     align-items: center;
+     justify-content: flex-start;
+     position: relative;
+}
+.coming{
+   justify-content: flex-end;
+}
+.fluid-card::after {
+     content: '';
+     width: 650px;
+     height: 445px;
+     background-image: url('../images/easu-to-use-riding-telemetry.png');
+     display: inline-block;
+     background-repeat: no-repeat;
+     position: absolute;
+     right: -16%;
+}
+.coming::after{
+     background-image: url('../images/Coming-to-a-city-near-you.png');
+     position: absolute;
+     left: -40%;
+     width: 1000px;
+}
+.zero::after{
+     background-image: url('../images/zero-hassle-payments.png');
+}
+.fluid-card::before {
+     content: '';
+     width: 735px;
+     height: 150px;
+     background-image: url('../images/yellow-arrow-to-left.svg');
+     display: inline-block;
+     background-repeat: no-repeat;
+     position: absolute;
+     background-size: cover;
+     right: -15%;
+     top: 70%;
+     z-index: 99;
+}
+.coming::before{
+     background-image: url('../images/yellow-arrow-to-right.svg');
+     left: -45%;
+     top: -20%;
+}
+.zero::before{
+     top: 0%;
+     right: -50%;
+}
+.fluid-card__content {
+     width: 450px;
+}
+
+.fluid-card__title {
+     font-family: 'Space Mono';
+     font-size: 48px;
+     font-weight: 700;
+     line-height: 48px;
+     letter-spacing: -2.142857074737549px;
+     padding: 0;
+     margin: 0;
+     margin-bottom: 24px;
+}
+
+.fluid-card__text {
+     font-size: 15px;
+     line-height: 25px;
+     color: #939CAA;
+     margin-bottom: 40px;
+}

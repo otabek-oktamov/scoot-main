@@ -1,0 +1,339 @@
+.location {
+    padding: 72px 0px;
+    background-image: linear-gradient(rgba(47, 59, 89, 0.75), rgba(47, 59, 89, 0.75)), url("../images/location-header-bg.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.location__title {
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 56px;
+    letter-spacing: -2.5px;
+    text-align: left;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+
+.location__title::after {
+    content: '';
+    width: 234px;
+    height: 63px;
+    display: inline-block;
+    background-image: url('../images/site-hero-bg-circles.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-right: -150px;
+}
+
+.map {
+    padding: 120px 0px;
+}
+
+.advice {
+    margin-bottom: 120px;
+}
+
+.advice__container {
+    display: flex;
+    align-items: center;
+    color: #939CAA;
+}
+
+.advice__title {
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: -2.142857074737549px;
+    color: #495567;
+    width: 351px;
+    margin-right: 30px;
+}
+
+.advice__text {
+    width: 445px;
+    line-height: 25px;
+    margin-right: auto;
+}
+
+/* ABOUT PAGE STYLES */
+
+.about-site__main {
+    padding-bottom: 120px;
+}
+
+.about {
+    background-image: linear-gradient(rgba(47, 59, 89, 0.75), rgba(47, 59, 89, 0.75)), url("../images/aboutbg.png");
+    margin-bottom: 80px;
+}
+
+/* USING STYLES */
+
+.using {
+    color: #495567;
+    padding: 150px 0px;
+    margin-bottom: 150px;
+}
+
+.fluid-card {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    position: relative;
+}
+
+.fluid-card:not(:last-child) {
+    margin-bottom: 250px;
+}
+
+.coming {
+    justify-content: flex-end;
+}
+
+.fluid-card::after {
+    content: '';
+    width: 650px;
+    height: 445px;
+    background-image: url('../images/mobility.png');
+    display: inline-block;
+    background-repeat: no-repeat;
+    position: absolute;
+    background-size: contain;
+    right: -12%;
+}
+
+.coming::after {
+    background-image: url('../images/better.png');
+    position: absolute;
+    left: -12%;
+    width: 1000px;
+}
+
+.fluid-card__content {
+    width: 450px;
+}
+
+.fluid-card__title {
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: -2.142857074737549px;
+    padding: 0;
+    margin: 0;
+    margin-bottom: 24px;
+}
+
+.fluid-card__text {
+    font-size: 15px;
+    line-height: 25px;
+    color: #939CAA;
+    margin-bottom: 40px;
+}
+
+/* VALUE SECTION STYLES */
+
+.value {
+    color: #495567;
+    margin-bottom: 120px;
+}
+
+.value__title {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 100px;
+}
+
+.value__list {
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+
+.value__item {
+    width: 350px;
+    text-align: center;
+}
+
+.value__item:not(:last-child) {
+    margin-right: 30px;
+}
+
+.value__item::before {
+    content: '';
+    display: block;
+    width: 240px;
+    height: 240px;
+    background-image: url('../images/ourtech.png');
+    background-position: center center;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    margin-bottom: -40px;
+}
+
+.integrity::before {
+    background-image: url('../images/bikerstreet.png');
+}
+
+.community::before {
+    background-image: url('../images/community.png');
+}
+
+.value__item-number {
+    color: #495567;
+    padding: 34px;
+    background-color: #fcb728;
+    display: inline-block;
+    border-radius: 50%;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: -1.07px;
+    margin-bottom: 32px;
+}
+
+.value__item-title {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: -1.07px;
+    margin: 0;
+    padding: 0;
+}
+
+.value__itemm-text {
+    font-family: 'Lexend Deca';
+    line-height: 25px;
+}
+
+/* Faqs section styles */
+
+.faqs__title {
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: -2.14px;
+    text-align: center;
+    margin: 0;
+    margin-bottom: 64px;
+}
+
+.works {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.works:not(:last-child) {
+    margin-bottom: 64px;
+}
+
+.works__title {
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: -1.78px;
+    margin: 0;
+}
+
+.works__list {
+    width: 730px;
+}
+
+.works__item {
+    padding: 32px 40px;
+    background-color: #F2F5F9;
+}
+
+.works__item:not(:last-child) {
+    margin-bottom: 16px;
+}
+
+.works__item-title {
+    margin: 0;
+    font-size: 24px;
+    font-weight: 700;
+    letter-spacing: -1.07px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.works__item-title:hover::after {
+    transform: rotate(180deg);
+}
+
+.works__item-title::after {
+    content: '';
+    display: inline-block;
+    width: 16px;
+    height: 8px;
+    background-image: url('../images/arrowbottom.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.title-mb {
+    margin-bottom: 24px;
+}
+
+.title-mb::after {
+    transform: rotate(180deg);
+}
+
+.works__item-text {
+    font-family: 'Lexend Deca', Arial, sans-serif;
+    font-size: 15px;
+    line-height: 25px;
+}
+
+/* CAREERS PAGE STYLES */
+
+.careers-site__main {
+    padding-bottom: 160px;
+}
+
+.careers-using {
+    margin-bottom: 0;
+}
+
+.workers__item {
+    background-color: #F2F5F9;
+    padding: 32px 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.workers__item:not(:last-child) {
+    margin-bottom: 24px;
+}
+
+.workers__title {
+    margin: 0;
+    font-size: 24px;
+    font-weight: 700;
+    letter-spacing: -1.07px;
+    margin-bottom: 8px;
+    color: #495567;
+}
+
+.adress-workers {
+    display: block;
+    font-family: 'Lexend Deca', Arial, sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.apply-btn {
+    padding: 14px 67px;
+}
