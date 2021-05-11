@@ -234,6 +234,7 @@
     padding: 0;
     outline: none;
     cursor: pointer;
+    display: none;
     /* When open */
   }
   .burger-btn:before, .burger-btn:after {
@@ -265,6 +266,9 @@
         max-width: 430px;
         padding: 0px 30px;
         margin: 0 auto;
+    }
+    .burger-btn{
+        display: block;
     }
     .site-header__container{
         display: flex;
@@ -312,4 +316,44 @@
     transform: translateX(0px);
     transition: 1s ease;
 }
+.footer-top{
+ 
+    flex-direction: column;
+    padding-bottom: 88px;
+}
+.site-footer__title{
+    font-size: 32px;
+    text-align: center;
+    width: 90%;
+    margin: 0 auto;
+    margin-bottom: 40px;
+}
+.footer-bottom__container{
+flex-direction: column;
+padding-top: 64px;
+padding-bottom: 88px;
+}
+.footer-logo{
+    margin-bottom: 40px;
+}
+.site-nav__list{
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 80px;
+}
+
+.site-nav__item{
+    margin: 0 !important;
+    padding: 0 !important;
+}
+.site-nav__item{
+    margin-bottom: 16px !important;
+}
+.site-nav__link{
+    color: #939CAA;
+}
+.footer-icon{
+    margin: auto;
+}
+
 }
