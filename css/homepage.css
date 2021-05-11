@@ -221,3 +221,115 @@
      color: #939CAA;
      margin-bottom: 40px;
 }
+
+@media screen and (max-width:768px) {
+   
+    .site-main{
+         max-width: 768px;
+         overflow-x: hidden;
+    }
+   .container{
+        max-width: 768px;
+        padding: 0px 30px;
+        margin: 0 auto;
+   }
+   .site-main{
+        padding-bottom: 104px;
+   }
+   .hero{
+         text-align: center;
+        background-position: center center, calc(60% + 300px) 85%;
+        margin-bottom: 122px;
+   }
+   .hero__title{
+        margin: auto;
+        margin-bottom: 24px;
+   }
+   .hero__title::after{
+        top: 105%;
+        right: -5%;
+   }
+   .hero__text{
+        text-align: center;
+        margin: auto;
+        margin-bottom: 32px;
+   }
+   .hero-btn{
+        margin: auto;
+   }
+   .hero__text::before{
+        display: none;
+   }
+   .hero__text::after{
+        left: -35%;
+        top: 88%;
+   }
+   .services__list{
+        display: flex;
+        flex-direction: column;
+   }
+   .services__list::before{
+        transform: rotate(90deg);
+        margin-left: -43%;
+   }
+   .services__item{
+        width: 60%;
+        margin-left: 200px;
+        position: relative;
+   }
+   .services__item:not(:last-child){
+        margin-bottom: 40px;
+   }
+   .services__item::before{
+        margin-left: -200px;
+       
+        position: absolute;
+        margin-top: 70px;
+   }
+   .services__item-fast-biker::before{
+        margin-left: -210px;
+   }
+   .fluid-card{
+      margin: auto;
+      text-align: center;
+      margin-top: 690px;
+   }
+   
+   .fluid-card::after{
+        top: -150%;
+   }
+   .fluid-card::before{
+        top: -60%;
+   }
+   .fluid-card__content{
+        margin: auto;
+   }
+   .coming::after{
+        margin-left: -10%;
+   }
+   .coming::before{
+        margin-top: -40%;
+        margin-left: -20%;
+   }
+   .zero::after{
+        margin-right:20px;
+   }
+   .zero::before{
+        margin-top: -30%;
+   }
+   .site-footer{
+        height: 770px;
+   }
+   .footer-top__container{
+        display: flex;
+        flex-direction: column;
+   }
+   .site-footer__title{
+        text-align: center;
+        margin-bottom: 40px;
+   }
+}
+@media screen and (max-width:432px) {
+     
+     
+}
