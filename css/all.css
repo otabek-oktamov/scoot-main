@@ -334,7 +334,7 @@ padding-top: 64px;
 padding-bottom: 88px;
 }
 .footer-logo{
-    margin-bottom: 40px;
+    margin-bottom: 40px !important;
 }
 .site-nav__list{
     flex-direction: column;
