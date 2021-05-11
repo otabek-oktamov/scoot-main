@@ -16,17 +16,18 @@
 <body class="site-body">
     <header class="site-header">
         <div class="container site-header__container">
-            <a class="site-header__logo logo" href="index.html">
+            <a class="site-header__logo logo" href="#">
                 <img src="images/scoot-logo-dark.svg" alt="scart logo" width="108" height="29">
             </a>
             <nav class="site-nav">
-                <ul class="site-nav__list list">
-                    <li class="site-nav__item"><a class="site-nav__link" href="about.html">About</a></li>
-                    <li class="site-nav__item"><a class="site-nav__link" href="location.html">Location</a></li>
-                    <li class="site-nav__item"><a class="site-nav__link" href="careers.html">Careers</a></li>
+                <ul class="site-nav__list list site-nav__list-mobile">
+                    <li class="site-nav__item site-nav__item-mobile"><a class="site-nav__link" href="about.html">About</a></li>
+                    <li class="site-nav__item site-nav__item-mobile"><a class="site-nav__link" href="location.html">Location</a></li>
+                    <li class="site-nav__item site-nav__item-mobile"><a class="site-nav__link" href="careers.html">Careers</a></li>
                 </ul>
             </nav>
             <a class="btn-orange scootin-btn" href="#">Get Scootin</a>
+            <button class="burger-btn"></button>
         </div>
     </header>
     <main class="site-main about-site__main">
@@ -169,6 +170,8 @@
             </div>
         </div>
     </footer>
+
+    <script src="main.js"></script>
 </body>
 
 </html>
